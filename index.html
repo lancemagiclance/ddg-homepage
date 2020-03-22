@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+                position: fixed;
+                list-style-type:none;
+                background-color:gray;
+            }
+            li {
+                float: left;
+                padding-right: 20px;
+            }
+            #logo {
+                display: block;
+                margin: auto;
+                margin-top: 100px;
+                
+            }
+            #search-bar {
+                display: grid;
+                grid-template-columns: 500px 25px;
+                grid-row-gap: 10px;
+            }
+            #search {
+                display: block;
+                width: 500px;
+                margin: auto
+            }
+            #search-button {
+                position: relative;
+            }
+            #img-button {
+                max-height: 15px;
+                width: auto;
+            }
+        </style>
+        <title>"DuckDuckGo" — Privacy, simplified.</title>
+    </head>
+    <body>
+        <ul>
+            <li>Home</li>
+            <li>Settings</li>
+            <li>About</li>
+        </ul>
+        <img id="logo" src="https://duckduckgo.com/assets/logo_homepage_mobile.normal.v108.unoptimized.svg" alt="DuckDuckGo logo">
+        <br>
+        <div id="search-bar">
+            <div><input id="search" type="text" placeholder="Duck it!"></div>
+            <div><button id="search-button"><img id="img-button" src="https://cdn2.iconfinder.com/data/icons/e-commerce-4/256/Searching-512.png"></button></div>
+        </div>
+        <footer>Copyright blah blah, gotta love DDG.</footer>
+    </body>
+</html>
